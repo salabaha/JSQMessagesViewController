@@ -17,7 +17,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TTTAttributedLabel.h"
+#import <TTTAttributedLabel/TTTAttributedLabel.h>
 
 /**
  *  `JSQMessagesCellTextView` is a subclass of `TTTAttributedLabel` that is used to display text
