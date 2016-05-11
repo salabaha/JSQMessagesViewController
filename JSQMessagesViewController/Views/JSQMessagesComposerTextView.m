@@ -66,7 +66,7 @@
     self.textAlignment = NSTextAlignmentNatural;
     
     self.contentMode = UIViewContentModeRedraw;
-    self.enabledTextCheckingTypes = UIDataDetectorTypeNone;
+    self.dataDetectorTypes = UIDataDetectorTypeNone;
     self.keyboardAppearance = UIKeyboardAppearanceDefault;
     self.keyboardType = UIKeyboardTypeDefault;
     self.returnKeyType = UIReturnKeyDefault;
