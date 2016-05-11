@@ -557,7 +557,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
         cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, bubbleTopLabelInset, 0.0f, 0.0f);
     }
 
-    cell.textView.dataDetectorTypes = UIDataDetectorTypeAll;
+    cell.textView.enabledTextCheckingTypes = UIDataDetectorTypeAll;
 
     cell.backgroundColor = [UIColor clearColor];
     cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
