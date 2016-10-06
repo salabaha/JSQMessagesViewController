@@ -155,7 +155,7 @@ typedef void (^JSQAnimationCompletionBlock)(BOOL finished);
                             if([subsubView isKindOfClass:NSClassFromString(@"UIInputSetHostView")])
                                 return subsubView;
     } else {
-        return self.textView.superview;
+        return self.textView.inputAccessoryView.superview;
     }
     return nil;
 }
