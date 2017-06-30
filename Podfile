@@ -9,5 +9,5 @@ pod 'JSQSystemSoundPlayer', '~> 2.0'
 pod 'TTTAttributedLabel'
 
 target :JSQMessagesTests, :exclusive => true do
-    pod 'OCMock'
+   pod 'JSQSystemSoundPlayer', '~> 2.0'
 end
