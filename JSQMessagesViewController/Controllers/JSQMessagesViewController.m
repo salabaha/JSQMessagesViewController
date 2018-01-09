@@ -289,12 +289,12 @@ JSQMessagesKeyboardControllerDelegate>
     }
 
     [self jsq_updateKeyboardTriggerPoint];
+    [self jsq_addObservers];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self jsq_addObservers];
     [self jsq_addActionToInteractivePopGestureRecognizer:YES];
     [self.keyboardController beginListeningForKeyboard];
 
