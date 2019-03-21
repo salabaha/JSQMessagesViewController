@@ -26,7 +26,6 @@
 
 
 @interface JSQMessagesCellTextView : TTTAttributedLabel
-- (NSTextCheckingResult *)linkAtPoint:(CGPoint)point;
 
 @property (nonatomic) NSDictionary* linkTextAttributes;
 @property (nonatomic) BOOL selectable;

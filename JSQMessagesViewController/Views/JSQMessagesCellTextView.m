@@ -99,7 +99,7 @@
     switch (sender.state) {
         case UIGestureRecognizerStateEnded: {
             CGPoint touchPoint = [sender locationInView:self];
-            NSTextCheckingResult *result = [self linkAtPoint:touchPoint];
+            NSTextCheckingResult *result = [[self linkAtPoint:touchPoint] result];
             if (result){
                 switch (result.resultType) {
                     case NSTextCheckingTypeLink:
